@@ -1,0 +1,34 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+.secoes {
+  display: flex;
+  height: 100%;
+  width: 70vw;
+  flex-direction: column;
+  margin-left: 15%;
+}
+.blocoUm, .blocoDois {
+  display: flex;
+  gap: 10%;
+  
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+ text-align: justify;
+  
+
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+
+}
